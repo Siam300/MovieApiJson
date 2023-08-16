@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		C918CA662A8B464600C75779 /* MovieApiJsonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918CA652A8B464600C75779 /* MovieApiJsonApp.swift */; };
-		C918CA682A8B464600C75779 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918CA672A8B464600C75779 /* ContentView.swift */; };
 		C918CA6A2A8B464800C75779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C918CA692A8B464800C75779 /* Assets.xcassets */; };
 		C918CA6D2A8B464800C75779 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C918CA6C2A8B464800C75779 /* Preview Assets.xcassets */; };
+		C918CA742A8B467400C75779 /* FavMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918CA732A8B467400C75779 /* FavMovie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C918CA622A8B464600C75779 /* MovieApiJson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApiJson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C918CA652A8B464600C75779 /* MovieApiJsonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApiJsonApp.swift; sourceTree = "<group>"; };
-		C918CA672A8B464600C75779 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C918CA692A8B464800C75779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C918CA6C2A8B464800C75779 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C918CA732A8B467400C75779 /* FavMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavMovie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				C918CA652A8B464600C75779 /* MovieApiJsonApp.swift */,
-				C918CA672A8B464600C75779 /* ContentView.swift */,
+				C918CA732A8B467400C75779 /* FavMovie.swift */,
 				C918CA692A8B464800C75779 /* Assets.xcassets */,
 				C918CA6B2A8B464800C75779 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C918CA682A8B464600C75779 /* ContentView.swift in Sources */,
+				C918CA742A8B467400C75779 /* FavMovie.swift in Sources */,
 				C918CA662A8B464600C75779 /* MovieApiJsonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

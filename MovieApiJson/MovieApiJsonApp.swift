@@ -11,7 +11,7 @@ import SwiftUI
 struct MovieApiJsonApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FavMovie()
         }
     }
 }
